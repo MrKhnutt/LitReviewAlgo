@@ -1,0 +1,29 @@
+\documentclass[11pt]{IEEEtran}
+
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{balance}
+
+\usepackage{subfiles}
+
+\title{A Review of Algorithms Education in Secondary Schools}
+\author{James Hancock}
+% \date{Summer 2026}
+
+\addbibresource{bibliography/assessments.bib}
+\addbibresource{bibliography/concepts.bib}
+\addbibresource{bibliography/methods.bib}
+\addbibresource{bibliography/misc.bib}
+\addbibresource{bibliography/pd.bib}
+
+\begin{document}
+\maketitle
+
+\subfile{sections/abstract.tex}
+\subfile{sections/intro.tex}
+\subfile{sections/BandC.tex}
+\subfile{sections/body.tex}
+\subfile{sections/conclusion.tex}
+
+\balance
+\printbibliography
+\end{document}
