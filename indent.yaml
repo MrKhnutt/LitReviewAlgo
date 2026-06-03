@@ -1,0 +1,10 @@
+removeTrailingWhitespace: 1
+defaultIndent: ""
+modifyLineBreaks:
+  textWrapOptions:
+    columns: 150
+  oneSentencePerLine:
+    manipulateSentences: 1
+    removeSentenceLineBreaks: 0
+    textWrapSentences: 1
+    sentenceIndent: "  "
