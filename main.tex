@@ -5,6 +5,12 @@
 
 \usepackage{subfiles}
 
+% sick of hbox warnings
+\hbadness=10000\relax
+\vbadness=10000\relax
+\setlength{\hfuzz}{\maxdimen}
+\setlength{\vfuzz}{\maxdimen}
+
 \title{A Review of Algorithms Education in Secondary Schools}
 \author{James Hancock}
 % \date{Summer 2026}
@@ -18,12 +24,12 @@
 \begin{document}
 \maketitle
 
-\subfile{sections/abstract.tex}
-\subfile{sections/intro.tex}
-\subfile{sections/context.tex}
-\subfile{sections/body.tex}
-\subfile{sections/conclusion.tex}
+\input{sections/abstract.tex}
+\input{sections/intro.tex}
+\input{sections/context.tex}
+\input{sections/body.tex}
+\input{sections/conclusion.tex}
 
-\balance
-\printbibliography
+\balance{}
+\printbibliography{}
 \end{document}
