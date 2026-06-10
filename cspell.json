@@ -6,13 +6,20 @@
     "words": [],
     "ignoreWords": [],
     "import": [],
-    "ignoreRegExpList": [
 
+    "enabledFileTypes": {
+        "*":false,
+        "latex":true,
+        "markdown":true
+    },
+
+    "ignoreRegExpList": [
+        "Names",
     ],
     "patterns": [
         {
             "name": "Names",
-            "pattern": "/[A-Z]\\S+"
+            "pattern": "/\\b[A-Z]\\S+\\b/"
         }
-    ]
+    ],
 }
