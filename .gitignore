@@ -11,4 +11,4 @@
 *.synctex.gz
 *.bak0
 styles
-*.docx
+*.synctex(busy)
